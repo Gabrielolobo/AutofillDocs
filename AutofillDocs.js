@@ -8,6 +8,7 @@ function onOpen() {
     
     function createNewGoogleDocs() {
     
-    
-      
+    const googleDocTemplate = DriveApp.getFileById('Document ID : Stored in the URL');
+    const destinationFolder = DriveApp.getFolderById('Folder ID: Stored in the URL');
+
     }
