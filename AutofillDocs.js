@@ -10,5 +10,6 @@ function onOpen() {
     
     const googleDocTemplate = DriveApp.getFileById('Document ID : Stored in the URL');
     const destinationFolder = DriveApp.getFolderById('Folder ID: Stored in the URL');
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Name of the Sheet');
 
     }
